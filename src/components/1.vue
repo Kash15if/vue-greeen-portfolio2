@@ -12,7 +12,7 @@
   </div>
 
   <div class="photo">
-    <img class="img1" src="myphoto.jpg" alt="">
+    <img class="img1" src="../assets/myphoto.jpg" alt="">
   </div>
 
   <div class="content">
@@ -27,9 +27,9 @@
   </div>
   
   <div class="left">
-    <div class="logo"><img src="facebook.svg" alt=""></div>
-    <div class="logo"><img src="linkedin.svg" alt=""></div>
-    <div class="logo"><img src="github.svg" alt=""></div>
+    <div class="logo"><img src="../assets/logos/facebook.svg" alt=""></div>
+    <div class="logo"><img src="../assets/logos/linkedin.svg" alt=""></div>
+    <div class="logo"><img src="../assets/logos/github.svg" alt=""></div>
   </div>
 
 </div>    
