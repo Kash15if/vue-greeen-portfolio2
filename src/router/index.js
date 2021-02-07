@@ -10,6 +10,11 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '',
+    name: 'bio',
+    component: bio
+  },
+  {
     path: '/1',
     name: 'bio',
     component: bio

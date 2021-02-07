@@ -25,8 +25,8 @@ export default {
         swipeHandler (direction) {
             console.log(direction)  // May be left / right / top / bottom
 
-            if(direction == "bottom"){
-                if(this.page > 1)
+            if(direction == "top"){
+                if(this.page > 4)
                 this.page = 1;
                 else
                 this.page += 1;
@@ -36,7 +36,7 @@ export default {
             }
             else{
               if(this.page <= 1)
-            this.page = 2;
+            this.page = 5;
             else
             this.page -= 1;
 
@@ -53,23 +53,6 @@ export default {
 #app {
   height: 100vh;
   width: 100vw;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
