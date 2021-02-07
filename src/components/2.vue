@@ -52,7 +52,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 90vh;
+  height: 70vh;
   width: 100vw;
   text-align: center
 }
@@ -125,7 +125,7 @@ h2{
     }
 
     h5{
-      font-size: 0.9rem;
+      font-size: 0.7rem;
     }
 
     .downArr > img{
