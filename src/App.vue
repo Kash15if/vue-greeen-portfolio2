@@ -2,7 +2,7 @@
   <div id="app" v-touch:swipe="swipeHandler">
 
        <transition
-          enter-active-class="animate__animated animate__fadeInDown"
+          enter-active-class="animate__animated animate__fadeInUp"
           leave-active-class="animate__animated animate__fadeOutUp">
 
       
@@ -51,8 +51,8 @@ export default {
 </script>
 <style>
 #app {
-  height: 100vh;
-  width: 100vw;
+  background-color: #245E41;
+  color: #E4FEF2;
 }
 
 </style>
