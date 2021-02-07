@@ -24,7 +24,7 @@
 
 
 <div  class="downArr">
-    <img src="downArrow.png" alt="">
+    <img src="../assets/downArrow.png" alt="">
   </div>
   
 </div>

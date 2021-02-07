@@ -1,6 +1,8 @@
 <template>
 <div>
 
+<h2>Education</h2>
+
 <div class="row">
 
     <div class="left"></div>
@@ -31,7 +33,7 @@
 </div>
 
 <div  class="downArr">
-    <img src="downArrow.png" alt="">
+    <img src="../assets/downArrow.png" alt="">
   </div>
   </div>
 </template>
@@ -99,6 +101,12 @@ export default {
   width: 10rem;
 }
 
+h2{
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
 @media (max-width: 720px) {
 
     .content{
@@ -122,6 +130,11 @@ export default {
 
     .downArr > img{
       width: 7rem;
+    }
+
+    h2{
+      font-size: 1.2rem;
+      margin: .5rem;
     }
 }
 </style>

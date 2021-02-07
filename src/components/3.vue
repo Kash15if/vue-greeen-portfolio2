@@ -9,7 +9,9 @@
 
 
     <div class="content">
-        <h5>add git section</h5>
+        <div class="top"><img src="../assets/proj-gif/covid19.gif" alt="" style="height: 100%; width:100%;"></div>
+        <div class="left"><img src="../assets/proj-gif/quiz.gif" alt="" style="height: 100%; width:100%;"></div>
+        <div class="right"><img src="../assets/proj-gif/portfolio.gif" alt="" style="height: 100%; width:100%;"></div>
     </div>
     
 
@@ -27,7 +29,7 @@
 </div>
 
 <div  class="downArr">
-    <img src="downArrow.png" alt="">
+    <img src="../assets/downArrow.png" alt="">
   </div>
   
 
