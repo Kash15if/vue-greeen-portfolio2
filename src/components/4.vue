@@ -14,11 +14,11 @@
     
 
     <div class="right">
-        <div class="pNo"></div>
-        <div class="pNo"></div>
-        <div class="pNo"></div>
-        <div class="pNo"></div>
+        <router-link to="/1" exact><div class="pNo"></div></router-link>
+        <router-link to="/2" exact><div class="pNo"></div></router-link>
         <div class="pNo" style="background-color: #92FFBE;"></div>
+        <router-link to="/4" exact><div class="pNo"></div></router-link>
+        <router-link to="/5" exact><div class="pNo"></div></router-link>
       </div>
 </div>
 
