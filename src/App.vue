@@ -2,8 +2,8 @@
   <div id="app" v-touch:swipe="swipeHandler">
 
        <transition
-          enter-active-class="animate__animated animate__fadeInUp"
-          leave-active-class="animate__animated animate__fadeOutUp">
+          enter-active-class="animate__animated animate__fadeIn animate__delay-2s"
+          leave-active-class="animate__animated animate__fadeOut">
 
       
           <router-view></router-view>
