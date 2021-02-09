@@ -1,4 +1,4 @@
-# scroller
+# vue-portfolio-scroll
 
 ## Project setup
 ```
