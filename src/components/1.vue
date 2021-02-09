@@ -35,7 +35,7 @@
 </div>    
 
 <div class="downArr">
-  <img src="../assets/downArrow.png" alt="">
+  <img class="animate__animated animate__bounce animate__repeat-2" src="../assets/downArrow.png" alt="">
 </div>
 
 </div>

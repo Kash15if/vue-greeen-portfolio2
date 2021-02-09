@@ -1,32 +1,39 @@
 <template>
 <div>
-  <h2>Skills</h2>
+
+  
+    <h2>Projects</h2>
 <div class="row">
 
     <div class="left"></div>
 
 
     <div class="content">
-      
-      
-
+        <div class="top"><img src="../assets/proj-gif/covid19.gif" alt="" style="height: 100%; width:100%;"></div>
+        <div class="left"><img src="../assets/proj-gif/quiz.gif" alt="" style="height: 100%; width:100%;"></div>
+        <div class="right"><img src="../assets/proj-gif/portfolio.gif" alt="" style="height: 100%; width:100%;"></div>
     </div>
     
 
     <div class="right">
         <router-link to="/1" exact><div class="pNo"></div></router-link>
         <router-link to="/2" exact><div class="pNo"></div></router-link>
+        <router-link to="/3" exact><div class="pNo"></div></router-link>
         <div class="pNo" style="background-color: #92FFBE;"></div>
-        <router-link to="/4" exact><div class="pNo"></div></router-link>
         <router-link to="/5" exact><div class="pNo"></div></router-link>
-      </div>
+    </div>
+</div>
+
+<div class="AllP">
+  <button>All Projects &#8594;</button>
 </div>
 
 
-<div  class="downArr">
-    <img src="../assets/downArrow.png" alt="">
-  </div>
+<div class="downArr">
+  <img class="animate__animated animate__bounce animate__repeat-2" src="../assets/downArrow.png" alt="">
+</div>
   
+
 </div>
 </template>
 
@@ -45,34 +52,56 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
   text-align: center
 }
 
-.left{
-    flex:1;
-    max-width: 1;
+.row > .left{
+    flex:2.5;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
-  .right{
-    flex:1;
-    max-width: 1;
+  .row > .right{
+    flex:2.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
   }
 
-  .content{
-    flex:8;
-    max-width: 8;
-    text-align: left;
-    padding: 30px;
+  .row > .content{
+    flex:5;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
+.content > .top{
+       flex: 100%;
+       margin: 10px;
+       height: 45%; 
+       background-color: white;
+  }
+.content > .left{
+      flex: 40%;
+      height: 45%;
+      margin: 10px;
+      background-color: white;
+    }
+.content > .right{
+      flex: 40%;
+      height: 45%;
+      margin: 10px;
+      background-color: white;
+    }
 
-.pNo{
+
+  .pNo{
   width: 20px;
   height: 20px;
   background-color: white;
@@ -93,30 +122,73 @@ export default {
 
 h2{
   text-align: center;
-  margin-top: 2rem;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.AllP{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.AllP > button{
+  width: auto;
+  background-color: #E4FEF2;
+  color: #000;
+  margin-left: auto;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 700px) {
 
-    h2{
-        font-size: 1rem;
+  .row > .left{
+    display: none;
+  }
+
+  .row > .right{
+    display: none;
+  }
+
+  .row > .content{
+    flex:100%;
+    padding: 0 5% 0 5%;
+  }
+
+  .content > .top{
+       margin: 3px;
+  }
+.content > .left{
+      margin: 3px;
     }
-    .content{
-      flex: 100%;
+.content > .right{
+      margin: 3px;
     }
 
-    .left{
-      display: none;
-    }
-
-    .right{
-      display: none;
-    }
-
-    .downArr > img{
+  .downArr > img{
       width: 7rem;
     }
+
+  .AllP > button{
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 2px;
 }
+
+h2{
+  font-size: 1.2rem;
+  margin: .5rem;
+}
+
+}
+
 
 </style>
