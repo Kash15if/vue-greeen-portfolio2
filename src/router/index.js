@@ -5,6 +5,7 @@ import education from '../components/2.vue'
 import skills from '../components/3.vue'
 import projects from '../components/4.vue'
 import contacts from '../components/5.vue'
+import AllProjects from '../components/AllProjects.vue'
 
 Vue.use(VueRouter)
 
@@ -38,6 +39,11 @@ const routes = [
     path: '/5',
     name: 'contacts',
     component: contacts
+  },
+  {
+    path: '/allprojects',
+    name: 'All-Projects',
+    component: AllProjects
   }
 ]
 
