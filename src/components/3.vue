@@ -8,25 +8,28 @@
 
     <div class="content">
       
-      <div style="width:100%;margin:20px auto;height:25vh">
-        <!-- Using the slider component -->
-        <slider ref="slider" :options="options">
-          <!-- slideritem wrapped package with the components you need -->
-          <slideritem v-for="(item,index) in someList" :key="index" style="background: #7baabe;width: 23%;margin-right: 2%;">{{item.html}}</slideritem>
-          <!-- Customizable loading -->
-          <div slot="loading">loading...</div>
-        </slider>
-      </div>
+      <div class="content">
+      
+      <img src="../assets/skill-logos/html5.png" alt="">
+      <img src="../assets/skill-logos/java.png" alt="">
+      <img src="../assets/skill-logos/javascript.png" alt="">
+      <img src="../assets/skill-logos/Node.png" alt="">
+      <img src="../assets/skill-logos/css3.png" alt="">
+      <img src="../assets/skill-logos/vue.png" alt="">
+      <img src="../assets/skill-logos/mongodb.png" alt="">
+      <img src="../assets/skill-logos/react.png" alt="">
+      <img src="../assets/skill-logos/angular.png" alt="">
+      <img src="../assets/skill-logos/typescript.png" alt="">
+      <img src="../assets/skill-logos/bootstrap.png" alt="">
+      <img src="../assets/skill-logos/chef.png" alt="">
+      <img src="../assets/skill-logos/docker.png" alt="">
+      <img src="../assets/skill-logos/gcp.png" alt="">
+      <img src="../assets/skill-logos/git.png" alt="">
+      <img src="../assets/skill-logos/kubernetes.png" alt="">
+      <img src="../assets/skill-logos/materialize.png" alt="">
 
-      <div style="width:100%;margin:20px auto;height:25vh">
-        <!-- Using the slider component -->
-        <slider ref="slider" :options="options">
-          <!-- slideritem wrapped package with the components you need -->
-          <slideritem v-for="(item,index) in someList" :key="index" style="background: #7baabe;width: 48%;margin-right: 2%;">{{item.html}}</slideritem>
-          <!-- Customizable loading -->
-          <div slot="loading">loading...</div>
-        </slider>
-      </div>
+
+    </div>
 
 
     </div>
@@ -54,85 +57,6 @@ import { slider, slideritem } from 'vue-concise-slider'
 
 export default {
   data () {
-      return {
-        //data list [array]
-        someList:[
-          {
-         html: '1',
-         style: {
-           'background': '#4abf8a',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '2',
-         style: {
-           'background': '#4bbfc3',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '3',
-         style: {
-           'background': '#7baabe',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '4',
-         style: {
-           'background': '#7caabe',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '5',
-         style: {
-           'background': '#4abf8a',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '6',
-         style: {
-           'background': '#4bbfc3',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '7',
-         style: {
-           'background': '#7baabe',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       },
-       {
-         html: '8',
-         style: {
-           'background': '#7caabe',
-           'width': '23.5%',
-           'margin-right': '2%'
-         }
-       }
-        ],
-        //Slider configuration [obj]
-        options: {
-          currentPage: 0,
-          tracking: false,
-          thresholdDistance: 100,
-          thresholdTime: 300,
-          infinite: 4,
-          slidesToScroll: 4,
-          sloop: true
-        }
-      }
     },
     components: {
       slider,
@@ -174,6 +98,15 @@ export default {
     max-width: 8;
     text-align: left;
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content > img{
+    width: auto;
+    height: 100px;
+    margin: 1.5rem;
   }
 
 
@@ -209,7 +142,17 @@ h2{
     }
     .content{
       flex: 100%;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+
+  .content > img{
+    width: auto;
+    height: 50px;
+    margin: 10px;
+  }
 
     .left{
       display: none;

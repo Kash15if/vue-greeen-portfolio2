@@ -27,9 +27,28 @@
   </div>
   
   <div class="left">
-    <div class="logo"><img src="../assets/logos/facebook.svg" alt=""></div>
-    <div class="logo"><img src="../assets/logos/linkedin.svg" alt=""></div>
-    <div class="logo"><img src="../assets/logos/github.svg" alt=""></div>
+    <a
+            href="https://firebasestorage.googleapis.com/v0/b/resume-9d375.appspot.com/o/CV_Kashif_Ahmad.pdf?alt=media&token=105ab15d-5438-47f3-82a4-ae770e11cac8"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div class="logo"><img src="../assets/logos/facebook.svg" alt=""></div>
+    </a>
+
+    <a
+            href="https://www.linkedin.com/in/kashif-ahmad-373286164/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div class="logo"><img src="../assets/logos/linkedin.svg" alt=""></div>
+    </a>
+
+    <a
+            href="https://github.com/Kash15if"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div class="logo"><img src="../assets/logos/github.svg" alt=""></div>
+    </a>
+    
+    
   </div>
 
 </div>    

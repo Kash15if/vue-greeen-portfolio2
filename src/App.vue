@@ -1,7 +1,14 @@
 <template>
   <div id="app" v-touch:swipe="swipeHandler">
 
-  <div class="cv"><button>CV</button></div>
+  <div class="cv">
+            <a
+            href="https://firebasestorage.googleapis.com/v0/b/resume-9d375.appspot.com/o/CV_Kashif_Ahmad.pdf?alt=media&token=105ab15d-5438-47f3-82a4-ae770e11cac8"
+            target="_blank"
+            rel="noopener noreferrer">
+            CV
+            </a>
+  </div>
 
 
 
@@ -66,7 +73,7 @@ export default {
   right: 15px;
 }
 
-.cv > button{
+.cv > a{
       background-color: #BCFE4D;
       color: #000;
       border: none;
