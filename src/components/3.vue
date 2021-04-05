@@ -10,23 +10,24 @@
       
       <div class="content">
       
-      <img src="../assets/skill-logos/html5.png" alt="">
+      
       <img src="../assets/skill-logos/java.png" alt="">
       <img src="../assets/skill-logos/javascript.png" alt="">
       <img src="../assets/skill-logos/Node.png" alt="">
+      <img src="../assets/skill-logos/typescript.png" alt="">
+      <img src="../assets/skill-logos/html5.png" alt="">
       <img src="../assets/skill-logos/css3.png" alt="">
       <img src="../assets/skill-logos/vue.png" alt="">
-      <img src="../assets/skill-logos/mongodb.png" alt="">
       <img src="../assets/skill-logos/react.png" alt="">
       <img src="../assets/skill-logos/angular.png" alt="">
-      <img src="../assets/skill-logos/typescript.png" alt="">
       <img src="../assets/skill-logos/bootstrap.png" alt="">
+      <img src="../assets/skill-logos/materialize.png" alt="">
+      <img src="../assets/skill-logos/mongodb.png" alt="" style="width: 150px;height: 70px;">
+      <img src="../assets/skill-logos/git.png" alt="">
       <img src="../assets/skill-logos/chef.png" alt="">
       <img src="../assets/skill-logos/docker.png" alt="">
       <img src="../assets/skill-logos/gcp.png" alt="">
-      <img src="../assets/skill-logos/git.png" alt="">
       <img src="../assets/skill-logos/kubernetes.png" alt="">
-      <img src="../assets/skill-logos/materialize.png" alt="">
 
 
     </div>
