@@ -54,14 +54,12 @@
 </template>
 
 <script>
-import { slider, slideritem } from 'vue-concise-slider'
 
 export default {
   data () {
     },
     components: {
-      slider,
-      slideritem
+      
     }
 }
 </script>

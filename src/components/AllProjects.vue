@@ -10,9 +10,9 @@
             <h6 class="card-subtitle mb-2 text-muted">Language: {{repo.language}}</h6>
             <p class="card-text">Stars {{repo.stargazers_count}}   <span class="float-right">forks {{" " + repo.forks_count}}</span></p>
             
-            <div class="text-center">
-              <a v-bind:href=repo.homepage class="btn btn-primary" target="_blank"
-                rel="noopener noreferrer" style="width: 60%; margin-top: 20px;"
+            <div class="btn">
+              <a v-bind:href=repo.homepage  target="_blank"
+                rel="noopener noreferrer"
               >
               website
               </a>
@@ -55,24 +55,33 @@ export default {
 
     .row{
       padding: 5%;
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
     }
 
     .box{
-      width: 30%;
       margin: 1%;
+      width: 20vw;
+      border: 3px solid #E9FAFB;
+      border-radius: 6px;
+      padding: 10px;
     }
 
     a{
       text-decoration: none;
-      color:#263238;
+      color:#E9FAFB;
     }
     .card{
       margin-top: 25px;
     }
     
     .btn{
+        margin: 20px;
+        padding: 5px;
         background-color: rgb(59, 17, 128);
         color: white;
-        width: auto;
+        text-align: center;
+        
     }
 </style>

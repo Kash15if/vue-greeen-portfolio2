@@ -25,7 +25,7 @@
 </div>
 
 <div class="AllP">
-  <button>All Projects &#8594;</button>
+  <button><router-link to="/allprojects" exact style="text-decoration: none;">All Projects &#8594;</router-link></button>
 </div>
 
 
