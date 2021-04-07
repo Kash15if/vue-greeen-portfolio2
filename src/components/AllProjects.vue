@@ -5,7 +5,7 @@
       <a v-bind:href=repo.html_url target="_blank" rel="noopener noreferrer">
         <div class="card" >
           <div class="card-body">
-            <h5 class="card-title" >{{repo.name}}</h5>
+            <h3 class="card-title" >{{repo.name}}</h3>
             <p class="card-text">{{repo.description}}</p>
             <h6 class="card-subtitle mb-2 text-muted">Language: {{repo.language}}</h6>
             <p class="card-text">Stars {{repo.stargazers_count}}   <span class="float-right">forks {{" " + repo.forks_count}}</span></p>
@@ -83,5 +83,15 @@ export default {
         color: white;
         text-align: center;
         
+    }
+
+    h6{
+      margin: 10px 0 10px 0;
+      font-size: 15px;
+    }
+
+    h3{
+      text-transform: uppercase;
+      margin: 10px 0 10px 0;
     }
 </style>
