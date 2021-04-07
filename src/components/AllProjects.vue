@@ -94,4 +94,18 @@ export default {
       text-transform: uppercase;
       margin: 10px 0 10px 0;
     }
+
+@media (max-width: 800px)  {
+
+    .row{
+      margin-top: 40px;
+    }
+
+    .box{
+      margin: 4%;
+      width: 80vw;
+    }
+
+
+}
 </style>
