@@ -8,10 +8,10 @@
     <div class="left"></div>
 
 
-    <div class="content">
-        <div class="top"><img src="../assets/proj-gif/covid19.gif" alt="" style="height: 100%; width:100%;"></div>
-        <div class="left"><img src="../assets/proj-gif/quiz.gif" alt="" style="height: 100%; width:100%;"></div>
-        <div class="right"><img src="../assets/proj-gif/portfolio.gif" alt="" style="height: 100%; width:100%;"></div>
+    <div class="content ">
+        <div class="top"></div>
+        <div class="left"></div>
+        <div class="right"></div>
     </div>
     
 
@@ -85,19 +85,27 @@ export default {
        flex: 100%;
        margin: 10px;
        height: 45%; 
-       background-color: white;
+       background-image: url("../assets/proj-gif/covid19.gif");
+       background-color: white;background-repeat: no-repeat;
+  background-size: 100%;
   }
 .content > .left{
       flex: 40%;
       height: 45%;
       margin: 10px;
+      background-image: url("../assets/proj-gif/quiz.gif");
       background-color: white;
+      background-repeat: no-repeat;
+      background-size: 100%;
     }
 .content > .right{
       flex: 40%;
       height: 45%;
       margin: 10px;
+      background-image: url("../assets/proj-gif/portfolio.gif");
       background-color: white;
+      background-repeat: no-repeat;
+      background-size: 100%;
     }
 
 
@@ -144,6 +152,8 @@ h2{
   cursor: pointer;
   border-radius: 2px;
 }
+
+
 
 
 @media (max-width: 700px) {
